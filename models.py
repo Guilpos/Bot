@@ -88,9 +88,3 @@ class OrderStatus:
             self.order_id = order_info['orderID']
             self.status = order_info['ordStatus']
             self.avg_price = order_info['avgPx']
-
-
-
-
-
-
