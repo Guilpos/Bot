@@ -1,11 +1,13 @@
 import tkinter as tk
 import logging
-from bitmex import get_contracts
+
+from connectors.binance_futures import BinanceFuturesClient
+from connectors.bitmex import BitmexClient
 
 
 logger = logging.getLogger()
 
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
 
 stream_handler = logging.StreamHandler()
 formatter = logging.Formatter('%(asctime)s %(levelname)s :: %(message)s')
@@ -19,31 +21,13 @@ file_handler.setLevel(logging.DEBUG)
 logger.addHandler(stream_handler)
 logger.addHandler(file_handler)
 
-logger.info('This is logged in all cases')
-
 
 if __name__ == '__main__':
 
-    bitmex_contracts = get_contracts()
+    binance = BinanceFuturesClient("59a774aaa984421e42c4b7a5c6e58b5793e18413d37d238223bf96f658645a21", "24eab36e14e3ec465205884a3dab9fb08417bf002aceae74d8ea1c2cbd4434a4", True)
+    bitmex = BitmexClient("auFZp6pRKUGtJOWvCvp2rmel", "wZeKgxo6utwIA1I5lna9_UglGn0ZZQTArp_TNLr5sw2ETBk-", True)
+
+
 
     root = tk.Tk()
-    root.configure(bg='gray12')
-
-    i = 0
-    j = 0
-
-    calibri_font = ('Calibri', 11, 'normal')
-
-    for contract in bitmex_contracts:
-        label_widget = tk.Label(root, text=contract, bg='gray12', fg='SteelBlue1', width=13, font=calibri_font)
-        label_widget.grid(row=i, column=j, sticky='ew')
-
-        if i == 4:
-            j += 1
-            i = 0
-        else:
-            i += 1
-
-
-
     root.mainloop()

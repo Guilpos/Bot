@@ -47,3 +47,125 @@
 2021-10-16 19:31:53,338 INFO :: This is logged in all cases
 2021-10-16 19:31:53,345 DEBUG :: Starting new HTTPS connection (1): www.bitmex.com:443
 2021-10-16 19:31:54,334 DEBUG :: https://www.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2021-10-16 20:44:35,733 INFO :: This is logged in all cases
+2021-10-16 20:44:35,734 INFO :: Binance Future Client Successfully Initialized
+2021-10-16 20:45:31,113 INFO :: This is logged in all cases
+2021-10-16 20:45:31,113 INFO :: Binance Future Client Successfully Initialized
+2021-10-16 20:45:31,123 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-16 20:45:34,813 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2021-10-16 20:46:27,647 INFO :: This is logged in all cases
+2021-10-16 20:46:27,647 INFO :: Binance Future Client Successfully Initialized
+2021-10-16 20:46:44,125 INFO :: This is logged in all cases
+2021-10-16 20:46:44,126 INFO :: Binance Future Client Successfully Initialized
+2021-10-16 20:46:44,133 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-16 20:46:45,021 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BTCUSDT HTTP/1.1" 200 None
+2021-10-16 20:47:24,145 INFO :: This is logged in all cases
+2021-10-16 20:47:24,145 INFO :: Binance Future Client Successfully Initialized
+2021-10-16 20:48:02,221 INFO :: This is logged in all cases
+2021-10-16 20:48:02,221 INFO :: Binance Future Client Successfully Initialized
+2021-10-16 20:48:02,228 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-16 20:48:02,869 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1h&limit=1000 HTTP/1.1" 200 None
+2021-10-16 21:50:20,963 INFO :: This is logged in all cases
+2021-10-16 21:50:20,963 INFO :: Binance Future Client Successfully Initialized
+2021-10-16 22:03:38,782 INFO :: This is logged in all cases
+2021-10-16 22:03:38,782 INFO :: Binance Future Client Successfully Initialized
+2021-10-16 22:06:02,006 INFO :: This is logged in all cases
+2021-10-16 22:06:02,006 INFO :: Binance Future Client Successfully Initialized
+2021-10-16 22:08:20,560 INFO :: This is logged in all cases
+2021-10-16 22:08:20,560 INFO :: Binance Future Client Successfully Initialized
+2021-10-16 22:13:04,767 INFO :: This is logged in all cases
+2021-10-16 22:13:04,767 INFO :: Binance Futures Client Successfully Initialized
+2021-10-16 22:20:59,895 INFO :: Binance Futures Client Successfully Initialized
+2021-10-16 22:21:09,761 INFO :: Binance Futures Client Successfully Initialized
+2021-10-16 22:24:14,152 INFO :: Binance Futures Client Successfully Initialized
+2021-10-16 22:24:14,162 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-16 22:24:15,153 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1634433854152&signature=3a518098c94a7e3f949630368d497dfb7ac061521831c7ed6af7116ab5bf6732 HTTP/1.1" 200 None
+2021-10-16 22:41:22,482 INFO :: Binance Futures Client Successfully Initialized
+2021-10-16 22:41:22,497 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-16 22:41:23,412 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1634434882482&signature=429107c42bb4c6981de3ce2c6a6156647a7dd037876d7ab09d1c46747782a444 HTTP/1.1" 200 None
+2021-10-16 22:41:23,421 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-16 22:41:29,140 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.01&type=LIMIT&price=20000&timeInForce=GTC&timestamp=1634434883417&signature=b71f1321d4310c29529c99505339d4b821be6dc2315240b213a61e3fbc302c64 HTTP/1.1" 400 79
+2021-10-16 22:41:29,144 ERROR :: Error making POST request to /fapi/v1/order: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (error code 400)
+2021-10-16 22:42:48,793 INFO :: Binance Futures Client Successfully Initialized
+2021-10-16 22:42:48,801 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-16 22:42:49,789 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1634434968794&signature=bad6f03906b657562b35ba4b1aa3fc21cd9682f7464ea6eb6d2cc51ca23437ae HTTP/1.1" 200 None
+2021-10-16 22:42:49,799 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-16 22:42:50,905 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.01&type=LIMIT&price=20000&timeInForce=GTC&timestamp=1634434969794&signature=f737dbc587a8ee1667e6ffbbe1ddc3105fcde6b53741e408137a492096fa86df HTTP/1.1" 200 None
+2021-10-16 22:45:30,584 INFO :: Binance Futures Client Successfully Initialized
+2021-10-16 22:45:30,593 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-16 22:45:31,063 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1634435130584&signature=b0defbba72436b1d9997589e06f7579c1742928a29d030c682f0c4c6fe120cc9 HTTP/1.1" 200 None
+2021-10-16 22:45:31,073 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-16 22:45:35,396 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1634435131068&symbol=BTCUSDT&orderid=2848426087&signature=193236a96633f440d1e7b6d8e1dc968fbaac27d5470149d30e48f0c714ae1d49 HTTP/1.1" 200 None
+2021-10-16 22:47:31,135 INFO :: Binance Futures Client Successfully Initialized
+2021-10-16 22:47:31,144 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-16 22:47:32,118 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1634435251136&signature=c50ad59e7132cfe7025ee299bca6878507ecf02738254cf7c9905bb0db3b1464 HTTP/1.1" 200 None
+2021-10-16 22:47:32,128 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-16 22:47:32,980 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=2848426087&symbol=BTCUSDT&timestamp=1634435252124&signature=9f9689583f5bdf5d606316369628f9947f9be8a874040e7856986e0cfef6109f HTTP/1.1" 200 None
+2021-10-16 23:08:13,244 INFO :: Binance connection opened
+2021-10-16 23:23:32,968 INFO :: Binance connection opened
+2021-10-16 23:23:51,114 INFO :: Binance connection opened
+2021-10-16 23:29:54,228 INFO :: Binance connection opened
+2021-10-16 23:31:26,002 ERROR :: Binance connection error: 
+2021-10-16 23:31:26,306 WARNING :: Binance connection closed
+2021-10-16 23:31:26,316 INFO :: Binance Futures Client Successfully Initialized
+2021-10-17 01:31:05,940 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 01:31:16,393 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2021-10-17 01:31:16,407 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 01:31:17,254 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1634445076403&signature=dc644b8199170b861f8e2948008cc1f044ea174e61070521adbfed85aa45b9a7 HTTP/1.1" 200 None
+2021-10-17 01:33:29,189 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 01:33:30,086 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2021-10-17 01:33:30,101 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 01:33:30,425 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1634445210096&signature=434a7ebdb07bd188fb4824daecc61b2b783f4098bb7f8c0121679990daa2fd45 HTTP/1.1" 200 None
+2021-10-17 01:33:31,639 INFO :: Binance connection opened
+2021-10-17 01:34:49,319 ERROR :: Binance connection error: 
+2021-10-17 01:34:49,615 WARNING :: Binance connection closed
+2021-10-17 01:34:52,817 INFO :: Binance connection opened
+2021-10-17 01:37:32,045 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 01:37:32,908 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2021-10-17 01:37:32,927 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 01:37:33,790 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1634445452923&signature=a754a99391e1e5ee892d900f3e6532037d210aaf56f926b48ff73a65eac43f1d HTTP/1.1" 200 None
+2021-10-17 01:37:34,999 INFO :: Binance connection opened
+2021-10-17 01:37:42,020 ERROR :: Binance connection error: 
+2021-10-17 01:37:42,311 WARNING :: Binance connection closed
+2021-10-17 01:56:57,643 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 01:56:58,519 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2021-10-17 01:56:58,533 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 01:56:59,378 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1634446618528&signature=6be17ed9db1222115cd39d86f654d21b38b32e6551b243b58372fa8f32840fd7 HTTP/1.1" 200 None
+2021-10-17 01:57:00,844 INFO :: Binance connection opened
+2021-10-17 01:57:18,529 ERROR :: Binance connection error: 
+2021-10-17 01:57:18,827 WARNING :: Binance connection closed
+2021-10-17 02:00:00,029 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 02:00:00,944 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2021-10-17 02:00:00,961 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 02:00:01,867 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1634446800957&signature=94871f15feebfc5a1426409caf10b89c8d0c73e21d9294d84ebccb771d436e79 HTTP/1.1" 200 None
+2021-10-17 02:00:03,124 INFO :: Binance connection opened
+2021-10-17 02:00:21,230 ERROR :: Binance connection error: 
+2021-10-17 02:00:21,521 WARNING :: Binance connection closed
+2021-10-17 02:00:24,710 INFO :: Binance connection opened
+2021-10-17 02:19:38,637 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 02:19:39,536 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2021-10-17 02:19:39,551 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 02:19:40,395 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1634447979547&signature=67aa1144b71d6877fc5d8f72aa9661a70f9d29ac1b792ce9785cb707a64d8cdf HTTP/1.1" 200 None
+2021-10-17 02:19:41,600 INFO :: Binance connection opened
+2021-10-17 02:19:41,600 ERROR :: Websocket error while subscribing to 140 bookTicker updates: 'BinanceFuturesClient' object has no attribute 'ws'
+2021-10-17 02:20:04,984 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 02:20:05,836 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2021-10-17 02:20:05,850 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 02:20:06,681 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1634448005845&signature=5f0e6012c9e284f40dbd61087af56219d6780f8ee014d489bd63192ab0231c67 HTTP/1.1" 200 None
+2021-10-17 02:20:07,882 INFO :: Binance connection opened
+2021-10-17 02:20:07,883 ERROR :: Websocket error while subscribing to 140 bookTicker updates: 'BinanceFuturesClient' object has no attribute 'ws'
+2021-10-17 02:20:54,023 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 02:20:56,544 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2021-10-17 02:20:56,559 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 02:20:57,648 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1634448056554&signature=ef174e5ad8e2cf5adff07f28613ee52007fdd650be72ebeef1a3dee53077ef54 HTTP/1.1" 200 None
+2021-10-17 02:20:58,884 INFO :: Binance connection opened
+2021-10-17 02:21:13,817 ERROR :: Binance connection error: 
+2021-10-17 02:21:14,116 WARNING :: Binance connection closed
+2021-10-17 02:21:17,337 INFO :: Binance connection opened
+2021-10-17 02:35:43,745 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 02:35:44,631 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2021-10-17 02:35:44,644 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-10-17 02:35:44,995 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1634448944640&signature=e9da3f4f1a10b94918bb781bba4be5c09cf188ebf6df69e43eae703a6062996f HTTP/1.1" 200 None
+2021-10-17 02:35:46,218 INFO :: Binance connection opened
+2021-10-17 02:36:04,411 ERROR :: Binance connection error: 
+2021-10-17 02:36:04,704 WARNING :: Binance connection closed
